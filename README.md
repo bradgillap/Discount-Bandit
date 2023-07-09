@@ -7,6 +7,26 @@ Right now I have tested it for the couple stores that are saved, but I will prob
 
 It's still a simple tracker, so errors can be found so don't expect it to compete  with the best websites out there, but I am planning to support it even more since I have a personal usage for it.
 
+## Environment
+Debian 12
+PHP 8.2
+
+Debian 12 Requirements install
+
+```bash
+apt update
+apt install nginx -y
+apt install mariadb-server -y
+apt install php-common php8.2-curl php8.2-mysql php8.2-xml php8.2-zip -y
+
+
+```
+
+## Create the Database
+
+mysql -u root
+
+UFINISHED.
 
 ## Deployment
 
